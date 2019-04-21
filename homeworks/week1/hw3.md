@@ -11,7 +11,7 @@ Command line 是操控電腦的其中一種方法。平常我們在操作電腦�
 1. 建立 wifi 資料夾，在 Terminal 的介面輸入：`mkdir wifi`
 
 1. 在新建資料夾內，新增一個 afu.js 的檔案，會分兩個步驟：
-    * 先移動到 wifi 資料夾：`cd wifi`
-    * 然後新增 afu.js 檔案：`touch afu.js`
+   * 先移動到 wifi 資料夾：`cd wifi`
+   * 然後新增 afu.js 檔案：`touch afu.js`
 
 這樣 h0w 哥懂了嗎？
