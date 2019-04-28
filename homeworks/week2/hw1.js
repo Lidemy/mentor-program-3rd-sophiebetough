@@ -1,18 +1,8 @@
 
-function printOneStar(n){
-  var result =''
-  for (var i=1; i<=n; i++){
-    result = '*'
-  }
-
-  console.log(result)
-}
-
 function printStars(n) {
-  for(var i=1; i<=n; i++){
-    printOneStar(i)
-  } 
-  
+  for (let i = 1; i <= n; i += 1) {
+    console.log('*');
+  }
 }
- 
-printStars(5)
+
+printStars(5);
