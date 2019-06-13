@@ -1,0 +1,45 @@
+ body {
+  margin: 0 auto ;
+  max-width: 900px;
+ }
+
+.content_title {
+  font-size: 42px;
+  margin-top: 30px; 
+  font-weight:bold;
+  padding: 25px 0px;
+}
+
+.clap {
+  top: 150px;
+  left: 50px;
+  position: fixed;
+  padding: 10px 20px;
+  border-radius: 99em;
+  border: 1px solid #ADADAD ;
+}
+
+@media screen and (max-width: 1200px) {
+  .clap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 0 auto;
+    padding: 20px 60px;
+  }
+
+  .title {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px auto;
+ }
+     
+  .content {
+    font-size: 16px;
+    width: 100%;
+    margin: 0px auto;
+  }
+}
