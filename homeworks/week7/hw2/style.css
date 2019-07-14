@@ -1,0 +1,109 @@
+ body {
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+
+.backgroundTop {
+  width: 100%;
+  height: 350px;
+  background: url(cover_photo.jpg);
+  background-size: cover;
+}
+
+.header {
+  padding: 50px;
+}
+
+.background {
+  display: #ffffff;
+}
+
+.main {
+  background: #ffffff;
+  max-width: 700px;
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: 20px solid orange;
+}
+
+.headerTitle {
+  font-size: 36px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.attention {
+  color: red;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.formRow {
+  padding: 20px 0;
+  line-height: 2 em;
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.formInput {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+
+.formTitle {
+  font-size: 22px;
+}
+
+.formRow > p {
+  line-height: 0.5em;
+}
+
+span.attention {
+  font-size: 22px;
+}
+
+input:not(#payment1):not(#payment2):not(.btn) {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 300px;
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+
+.btn {
+  color: white;
+  background: #1F7EF2;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.flag {
+  visibility: hidden;
+}
+
+.active {
+  background-color: pink; 
+}
+
+.active > .flag {
+  visibility: visible;
+}
+
+.choice {
+  padding: 10px;
+}
+
+.details {
+  font-size: 15px;
+}
+
+
+
